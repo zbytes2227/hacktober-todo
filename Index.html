@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon To-Do App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <img src="1.png" alt="Hackathon Logo" class="logo left">
+    <h1 class="header-title">Hackathon To-Do List</h1>
+    <img src="2.png" alt="Right Image" class="logo right">
+  </header>
+
+
+  <section id="todo-section">
+    <div id="tasks-container">
+      <!-- Tasks will appear here dynamically -->
+    </div>
+    <form id="todo-form">
+      <input type="text" id="task-content" placeholder="Write Your Task here..." required>
+      <!-- Added a calendar input for due date-->
+      <input type="date" id="task-date" placeholder="Select due date" required>
+      <button class="add-btn" type="submit">+</button>
+    </form>
+
+
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
