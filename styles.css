@@ -156,6 +156,14 @@ button:hover {
   color: #777;
 }
 
+/* MOBILE RESPONSIVE ISSUE solved */
+@media (max-width: 768px) {
+  .task .contributor {
+    display: none;
+  }
+}
+
+
 .task .actions {
   display: flex;
   gap: 10px;
